@@ -1,7 +1,5 @@
 import React from 'react'
 
-import CheckIcon from '@mui/icons-material/Check'
-import CloseIcon from '@mui/icons-material/Close'
 import {
   Container,
   Paper,
@@ -13,6 +11,8 @@ import {
   TableRow,
 } from '@mui/material'
 
+import EditableCellCheckBox from '../../components/EditableCell'
+
 const Home = () => {
   return (
     <Container maxWidth="md" sx={{ py: '3rem' }}>
@@ -20,6 +20,7 @@ const Home = () => {
         <Table aria-label="simple table">
           <TableHead>
             <TableRow>
+              <TableCell></TableCell>
               <TableCell>День</TableCell>
               <TableCell align="right">Сон</TableCell>
               <TableCell align="right">Питание</TableCell>
@@ -31,43 +32,28 @@ const Home = () => {
               <TableCell component="th" scope="row">
                 09 мая 2022
               </TableCell>
-              <TableCell align="right">
-                <CheckIcon />
-              </TableCell>
-              <TableCell align="right">
-                <CloseIcon />
-              </TableCell>
-              <TableCell align="right">
-                <CheckIcon />
-              </TableCell>
+              <EditableCellCheckBox />
+              <EditableCellCheckBox />
+              <EditableCellCheckBox />
+              <EditableCellCheckBox />
             </TableRow>
             <TableRow sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
               <TableCell component="th" scope="row">
-                10 мая 2022
+                09 мая 2022
               </TableCell>
-              <TableCell align="right">
-                <CheckIcon />
-              </TableCell>
-              <TableCell align="right">
-                <CloseIcon />
-              </TableCell>
-              <TableCell align="right">
-                <CheckIcon />
-              </TableCell>
+              <EditableCellCheckBox />
+              <EditableCellCheckBox />
+              <EditableCellCheckBox />
+              <EditableCellCheckBox />
             </TableRow>
             <TableRow sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
               <TableCell component="th" scope="row">
-                11 мая 2022
+                09 мая 2022
               </TableCell>
-              <TableCell align="right">
-                <CheckIcon />
-              </TableCell>
-              <TableCell align="right">
-                <CloseIcon />
-              </TableCell>
-              <TableCell align="right">
-                <CheckIcon />
-              </TableCell>
+              <EditableCellCheckBox />
+              <EditableCellCheckBox />
+              <EditableCellCheckBox />
+              <EditableCellCheckBox />
             </TableRow>
           </TableBody>
         </Table>
