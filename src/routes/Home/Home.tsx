@@ -29,28 +29,28 @@ const Home = () => {
           </TableHead>
           <TableBody>
             <TableRow sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
+              <TableCell></TableCell>
               <TableCell component="th" scope="row">
                 09 мая 2022
               </TableCell>
-              <EditableCellCheckBox />
               <EditableCellCheckBox />
               <EditableCellCheckBox />
               <EditableCellCheckBox />
             </TableRow>
             <TableRow sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
+              <TableCell></TableCell>
               <TableCell component="th" scope="row">
                 09 мая 2022
               </TableCell>
-              <EditableCellCheckBox />
               <EditableCellCheckBox />
               <EditableCellCheckBox />
               <EditableCellCheckBox />
             </TableRow>
             <TableRow sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
+              <TableCell></TableCell>
               <TableCell component="th" scope="row">
                 09 мая 2022
               </TableCell>
-              <EditableCellCheckBox />
               <EditableCellCheckBox />
               <EditableCellCheckBox />
               <EditableCellCheckBox />
